@@ -1,6 +1,9 @@
-Arduino UNO
-RFID reader (generic)
+Arduino UNO - This is a microcontroller board based on the Microchip ATmega328P. This was used as the brain of the circuit.
+RFID reader (generic) - RFID MFRC522 Module. This was the transmission module used for RFID communication. This RFID reader communicates at 13.56 MHz. Uses SPI communication.
 Alphanumeric LCD, 20 X 4
+SD card module - Used to transfer data to and from SD card. Used to fulfil the data logging part. Uses SPI communication to transfer data between the microcontroller and sd card.
+LCD display (20 x 4) with i2c lcd module - Display information based on the RFID tag read. Display the number of students in the library at a given moment.
 Breadboard (generic)
+RTC module - RTC stands for Real Time Clock. This is power by a battery. Therefore, even when the whole device is switched off we can still get the accurate time from the RTC.
 Jumper wires (generic)
 Servo Module (Generic)
